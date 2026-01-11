@@ -6,6 +6,9 @@
 <https://NiklavsPS.github.io/tautiba-rdf-datacube/>
   a dcat:Dataset ;
   dcterms:title "Iedzīvotāju skaits pēc tautības (RDF Data Cube)"@lv ;
+  dcterms:description "Latvijas iedzīvotāju skaits pēc tautības, teritorijas un gada, publicēts RDF Data Cube formā."@lv ;
+  dcterms:source <https://data.gov.lv/dati/lv/dataset/tautiba> ;
+
   dcterms:publisher [
     a foaf:Organization ;
     foaf:name "Centrālā statistikas pārvalde"@lv
