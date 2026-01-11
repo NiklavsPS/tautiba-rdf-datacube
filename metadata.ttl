@@ -1,0 +1,16 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://<username>.github.io/tautiba-rdf-datacube/>
+  a dcat:Dataset ;
+  dcterms:title "Iedzīvotāju skaits pēc tautības (RDF Data Cube)"@lv ;
+  dcterms:publisher [ a foaf:Organization ; foaf:name "Centrālā statistikas pārvalde"@lv ] ;
+  dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dcat:distribution [
+    a dcat:Distribution ;
+    dcterms:format "text/turtle" ;
+    dcat:downloadURL <https://NiklavsPS.github.io/tautiba-rdf-datacube/>
+  ] ;
+  dcterms:issued "2026-01-11"^^xsd:date .
