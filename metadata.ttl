@@ -17,6 +17,6 @@
   dcat:distribution [
     a dcat:Distribution ;
     dcterms:format "text/turtle" ;
-    dcat:downloadURL <https://github.com/NiklavsPS/tautiba-rdf-datacube/releases/download/v1.0/tautiba_datacube.ttl>
+    dcat:downloadURL <https://github.com/NiklavsPS/tautiba-rdf-datacube/releases/download/v1.1/tautiba_datacube.ttl>
   ] ;
   dcterms:issued "2026-01-11"^^xsd:date .
