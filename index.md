@@ -24,7 +24,7 @@ Katrs statistiskais novērojums ir modelēts kā atsevišķs RDF objekts (`qb:Ob
 
 ---
 
-## Izmantotie standarti un vokabulāri
+## Izmantotie standarti un vārdnīcas
 
 Datu publicēšanā izmantoti šādi standarti:
 - **[RDF Data Cube Vocabulary (QB)](https://www.w3.org/TR/vocab-data-cube/)** — statistisko datu modelēšanai
