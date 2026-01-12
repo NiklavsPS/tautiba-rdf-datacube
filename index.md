@@ -4,7 +4,7 @@
 **"Iedzīvotāju skaits pēc tautības"**, kas pārveidota un publicēta
 **atvērto saistīto datu (Linked Open Data)** formā kursa darba ietvaros.
 
-Datu kopa ir pārveidota no tabulāra CSV formāta uz **RDF Data Cube** modeli,
+Datu kopa ir pārveidota no tabulāra CSV formāta uz **[RDF Data Cube Vocabulary (QB)](https://www.w3.org/TR/vocab-data-cube/)** modeli,
 izmantojot starptautiski atzītus semantiskā tīmekļa standartus.
 
 ---
@@ -27,7 +27,7 @@ Katrs statistiskais novērojums ir modelēts kā atsevišķs RDF objekts (`qb:Ob
 ## Izmantotie standarti un vokabulāri
 
 Datu publicēšanā izmantoti šādi standarti:
-- **RDF Data Cube Vocabulary (QB)** — statistisko datu modelēšanai
+- **[RDF Data Cube Vocabulary (QB)](https://www.w3.org/TR/vocab-data-cube/)** — statistisko datu modelēšanai
 - **SKOS** — teritoriju un tautību kodu aprakstam
 - **DCAT** — datu kopas metadatu aprakstam
 - **RDF / Turtle** — datu serializācijas formāts
@@ -119,3 +119,13 @@ WHERE {
   ?o a qb:Observation .
 }
 ```
+---
+
+## Piezīme par URI dereferencējamību
+
+Šajā publicēšanas risinājumā pilnā datu kopa ir pieejama kā RDF “bulk download” fails. 
+Atsevišķu resursu URI (novērojumiem/konceptiem) nav paredzēti tiešai pārlūka 
+dereferencēšanai ar HTML/RDF atbildi. Datu izmantošana paredzēta, 
+lejupielādējot RDF failu un ielādējot to analīzes rīkos vai triplestore.
+
+---
